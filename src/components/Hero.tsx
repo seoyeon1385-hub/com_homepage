@@ -54,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({ company }) => {
           </div>
 
           {/* Simple Company Description: [회사 설명] */}
-          <p className="text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed max-w-2xl font-normal text-balance">
+          <p className="text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed max-w-2xl font-normal text-pretty">
             {company.description}
           </p>
 

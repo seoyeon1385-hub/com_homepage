@@ -41,12 +41,12 @@ export default function App() {
       <Footer company={company} />
 
       {/* 8. 간편 정보 & 경력기술 수정 및 유지보수 가이드 패널 */}
-      <CompanyCustomizer
+      {/*<CompanyCustomizer
         company={company}
         onChangeCompany={(updated) => setCompany(updated)}
         careers={careers}
         onChangeCareers={(updated) => setCareers(updated)}
-      />
+      />*/}
     </div>
   );
 }

@@ -133,13 +133,13 @@ export const Navbar: React.FC<NavbarProps> = ({ company }) => {
 
           {/* Mobile Hamburger Button */}
           <div className="flex md:hidden items-center gap-2">
-            <a
+            {/*<a
               href="#contact"
               onClick={(e) => handleNavClick(e, '#contact')}
               className="px-3 py-1.5 text-xs font-semibold text-white bg-slate-900 rounded-md"
             >
               문의
-            </a>
+            </a>*/}
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

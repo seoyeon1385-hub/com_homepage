@@ -57,7 +57,7 @@ export const CompanyCustomizer: React.FC<CustomizerProps> = ({
   return (
     <>
       {/* Floating Toggle Button */}
-      <div className="fixed bottom-6 right-6 z-40">
+      {/*<div className="fixed bottom-6 right-6 z-40">
         <button
           type="button"
           onClick={() => setIsOpen(true)}
@@ -66,7 +66,7 @@ export const CompanyCustomizer: React.FC<CustomizerProps> = ({
           <Settings2 className="w-4 h-4 text-blue-400" />
           <span>정보 및 경력기술 실시간 편집</span>
         </button>
-      </div>
+      </div>*/}
 
       {/* Slide-over Drawer */}
       {isOpen && (

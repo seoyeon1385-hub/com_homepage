@@ -65,7 +65,7 @@ export const Location: React.FC<LocationProps> = ({ company }) => {
         timestamp: roughmapTimestamp,
         key: roughmapKey,
         mapWidth: '100%',
-        mapHeight: '440',
+        mapHeight: '350',
       }).render();
     } else {
       retryTimer = setTimeout(renderKakaoRoughmap, 200);
