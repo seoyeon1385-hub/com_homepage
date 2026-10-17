@@ -1,0 +1,6 @@
+{
+  "name": "기업 소개 원페이지 홈페이지",
+  "description": "실제 회사에서 바로 활용할 수 있는 깔끔하고 신뢰감 있는 반응형 원페이지 기업 공식 홈페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
