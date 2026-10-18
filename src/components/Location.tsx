@@ -32,8 +32,8 @@ export const Location: React.FC<LocationProps> = ({ company }) => {
   const mapWrapperRef = useRef<HTMLDivElement>(null);
 
   // Default roughmap timestamp & key
-  const roughmapTimestamp = company.kakaoRoughmapTimestamp || '1792207371702';
-  const roughmapKey = company.kakaoRoughmapKey || '3euhdqeanio';
+  const roughmapTimestamp = company.kakaoRoughmapTimestamp || '1792321717219';
+  const roughmapKey = company.kakaoRoughmapKey || '3hbrqy89uqm';
 
   // Address copy handler
   const copyAddress = () => {
@@ -65,7 +65,7 @@ export const Location: React.FC<LocationProps> = ({ company }) => {
         timestamp: roughmapTimestamp,
         key: roughmapKey,
         mapWidth: '100%',
-        mapHeight: '350',
+        mapHeight: '300',
       }).render();
     } else {
       retryTimer = setTimeout(renderKakaoRoughmap, 200);
